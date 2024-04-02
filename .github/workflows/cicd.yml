@@ -23,9 +23,10 @@ jobs:
     name: Build & Tests
     uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@main
     with:
-      disablePublish: true
       dotnet-logging: ${{ inputs.dotnet-logging }}
       dotnet-version: |
+        6.x
         7.x
+        8.x
       solution: ./SequentialGuid.sln
     secrets: inherit
