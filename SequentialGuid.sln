@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{554192CF-0D2E-42CE-9EC7-066A8FD73A4F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.filenesting.json = .filenesting.json
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		Directory.Solution.props = Directory.Solution.props
+		GitVersion.yml = GitVersion.yml
+		LICENSE = LICENSE
+		new-project.ps1 = new-project.ps1
+		nuget.config = nuget.config
+		README.md = README.md
+		update-solution.ps1 = update-solution.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42F47CC9-30FA-44A2-91AC-3C55EB20D93E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0EAC5BD7-1E8D-4BA8-B0C9-19766031C329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.SequentialGuid", "src\NetEvolve.SequentialGuid\NetEvolve.SequentialGuid.csproj", "{ADAE52D0-CA16-4E3F-814D-65625111ED5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.SequentialGuid.Tests.Unit", "tests\NetEvolve.SequentialGuid.Tests.Unit\NetEvolve.SequentialGuid.Tests.Unit.csproj", "{433C0DEC-2E6F-4D22-9382-1BAA60BBBC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADAE52D0-CA16-4E3F-814D-65625111ED5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAE52D0-CA16-4E3F-814D-65625111ED5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAE52D0-CA16-4E3F-814D-65625111ED5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAE52D0-CA16-4E3F-814D-65625111ED5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433C0DEC-2E6F-4D22-9382-1BAA60BBBC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433C0DEC-2E6F-4D22-9382-1BAA60BBBC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433C0DEC-2E6F-4D22-9382-1BAA60BBBC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433C0DEC-2E6F-4D22-9382-1BAA60BBBC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADAE52D0-CA16-4E3F-814D-65625111ED5A} = {42F47CC9-30FA-44A2-91AC-3C55EB20D93E}
+		{433C0DEC-2E6F-4D22-9382-1BAA60BBBC0B} = {0EAC5BD7-1E8D-4BA8-B0C9-19766031C329}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4646205D-074A-48BC-9847-3262718F7FCD}
+	EndGlobalSection
+EndGlobal
