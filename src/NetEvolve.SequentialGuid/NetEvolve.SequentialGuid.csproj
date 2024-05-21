@@ -10,6 +10,8 @@
     <PackageProjectUrl>https://github.com/dailydevops/sequentialguid</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dailydevops/sequentialguid.git</RepositoryUrl>
     <PackageTags>sequentialguid;guid;uuid</PackageTags>
+
+    <CopyrightStartYear>2024</CopyrightStartYear>
   </PropertyGroup>
 
 </Project>
