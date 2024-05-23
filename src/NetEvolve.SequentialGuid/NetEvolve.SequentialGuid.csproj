@@ -4,14 +4,4 @@
     <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <Title>$(MSBuildProjectName)</Title>
-    <Description>Small project for the generation of sequential Guids.</Description>
-    <PackageProjectUrl>https://github.com/dailydevops/sequentialguid</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/dailydevops/sequentialguid.git</RepositoryUrl>
-    <PackageTags>sequentialguid;guid;uuid</PackageTags>
-
-    <CopyrightStartYear>2024</CopyrightStartYear>
-  </PropertyGroup>
-
 </Project>
