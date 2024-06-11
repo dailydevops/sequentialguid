@@ -14,6 +14,8 @@
     <Description>Small project for the generation of sequential Guids.</Description>
     <PackageProjectUrl>https://github.com/dailydevops/sequentialguid</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dailydevops/sequentialguid.git</RepositoryUrl>
+    <PackageReleaseNotes>$(PackageProjectUrl)/releases</PackageReleaseNotes>
+
     <PackageTags>sequentialguid;guid;uuid</PackageTags>
 
     <CopyrightYearStart>2024</CopyrightYearStart>
