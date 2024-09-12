@@ -83,7 +83,7 @@ public class SequentialGuidFactoryTests
                 random,
                 utcNow,
                 SequentialGuidType.AtEnd
-            }
+            },
         };
 
         return data;
